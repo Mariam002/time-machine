@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+section {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.box1{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	background: white;
+	top: 50px;
+	left:28px;
+
+
+}
+
+.box2{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	background: white;
+	top: 315px;
+	left:28px;
+
+
+}
+
+.box3{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	background: white;
+	top: 600px;
+	left:28px;
+}
+
+
+.strip1{
+
+	position: relative;
+	width: 180px;
+	height: 5000px;
+	background: black;
+	top: -80px;
+	left:190px;
+
+}
+
+
+
+.box4{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	background: white;
+	top: 50px;
+	right:28px;
+
+
+}
+
+.box5{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	background: white;
+	top: 315px;
+	right:28px;
+
+
+}
+
+.box6{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	background: white;
+	top: 600px;
+	right:28px;
+
+
+}
+.strip2{
+
+	position: relative;
+  width: 180px;
+	height: 1000px;
+	background: black;
+	top: -80px;
+	right:1000px;
+
+
+}
+
+
+.no-parallax {
+  background-color: white;
+  z-index: 999;
+}
+
+section h1 {
+	color: black;
+  text-align: center;
+  font-size: 5px;
+  font-family: "Righteous";
+}
+
+.parallax h1 {
+  width: 60%;
+  font-size: 5px;
+}
+
+.parallax::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+
+.oldTheatre{
+
+width: 1700px ;
+height: 800px;
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+  section h1 {
+    font-size: 8rem;
+  }
+  .parallax h1 {
+    font-size: 4rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
