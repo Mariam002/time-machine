@@ -9,7 +9,7 @@ div {
 	align-items: center;
 	justify-content: center;
 	font-family: "Righteous";
-	font-size: 27px;
+	font-size: 35px;
 	color: white;
 	width: 100%;
 	height:  100vh;
@@ -34,6 +34,7 @@ div {
 }
 
 
+
 .three-text1{
 	position: absolute;
 	width: 35vw;
@@ -44,7 +45,7 @@ div {
     font-weight:;
     font-size: 25px;
     line-height: 1.5em;
-    color: #097969;
+    color: #ff8243;
     background: white;
 
 }
@@ -58,7 +59,7 @@ div {
     font-family: 'Avenir', sans-serif;
     font-size: 18px;
     line-height: 1.5em;
-    color: #097969;
+    color: #ff8243;
     background: white;
 
 }
@@ -111,12 +112,28 @@ div {
 .six-text1{
 	position: absolute;
 	width: 35vw;
-    left: 22vw;
-	top: 5425px;
+    left: 19vw;
+	top: 5530px;
 	padding: 20px;
-    font-family: ;
-    font-size: 55px;
-    font-weight: "Righteous";
+    font-family:"Righteous" ;
+    font-size: 70px;
+    font-weight: bold ;
+    line-height: 1.5em;
+    color: white;
+    background:;
+
+}
+
+.six-text2{
+
+	position: absolute;
+	width: 35vw;
+    left: 19vw;
+	top: 5690px;
+	padding: 20px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
     line-height: 1.5em;
     color: white;
     background:;
@@ -125,9 +142,9 @@ div {
 
 .six-text{
 	position: absolute;
-	width: 35vw;
-    left: 22vw;
-	top: 5567px;
+	width: 57vw;
+    left: 19vw;
+	top: 5750px;
 	padding: 20px;
     font-family: 'Avenir', sans-serif;
     font-size: 20px;
@@ -147,9 +164,9 @@ div:nth-child(1){
 
 
 div:nth-child(2){
-	background:#097969;
+	background:#ff8243;
 	background-size: cover;
-	font-size: 27px;
+	font-size: 35px;
 }
 
 
@@ -159,8 +176,8 @@ div:nth-child(3){
 	background-image: url(horse-in-motion-copy.jpeg);
 	background-attachment: fixed;
 	background-size: cover;
-	font-size: 35px;
-	color:  #097969 ;
+	font-size: 50px;
+	color:  #ff8243 ;
 
 }
 
@@ -173,7 +190,7 @@ div:nth-child(3){
 	margin: 100px ;
 	width: 60%;
 	color: #ff8243 ;
-	width: 650px;
+	width: 600px;
 	height: 900px;
 
 
@@ -182,6 +199,7 @@ div:nth-child(3){
 div:nth-child(4){
 
 		background: #ff8243 ;
+		background-size: cover;
 
 	}
 
@@ -190,7 +208,7 @@ div:nth-child(5){
 	background-image: url(charlie-chaplin.jpeg);
 	background-attachment: fixed;
 	background-size: cover;
-	font-size: 35px;
+	font-size: 50px;
 	color:  #ff8243 ;;
 		
 
@@ -205,15 +223,15 @@ div:nth-child(5){
 	margin: 100px ;
 	width: 60%;
 	color: #ff8243 ;
-	width: 650px;
-	height: 900px;
+	width: 600px;
+	height: 1000px;
 
 
 }
 
 div:nth-child(6){
 
-	background-image: url(talkies.jpeg);
+	background-image: url(sound.jpeg);
 	background-attachment: fixed;
 	background-size: cover;
 
@@ -222,8 +240,8 @@ div:nth-child(6){
 
 div:nth-child(7){
 
-	background: #ff8243
-
+	background: #ff8243;
+	background-size: cover;
 
 }
 
@@ -237,14 +255,86 @@ div:nth-child(8){
 
 div:nth-child(9){
 
- 
-	background: #ff8243
+	background-image: url(technicolour.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
 
 
 }
 
+.nine{
+
+	font-size: 50px;
+	font-weight: lighter;
+    top: 100px;
+    bottom: 100px;
+	margin: 100px ;
+	width: 60%;
+	color: #ff8243 ;
+	width: 600px;
+	height: 1000px;
+
+
+}
+
+.nine-text1 {
+
+
+	position: absolute;
+	width: 35vw;
+     left: 53vw;
+	top: 7300px;
+	padding: 20px;
+    font-family: "Righteous";
+    font-weight:;
+    font-size: 25px;
+    line-height: 1.5em;
+    color: #ff8243;
+    background: white;
+
+
+}
+
+.nine-text2{
+
+	position: absolute;
+	width: 35vw;
+    left: 53vw;
+	top: 7380px;
+	padding: 20px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight:  lighter;
+    color: ff8243;
+    background:white;
+
+}
+
+.nine-text3{
+	position: absolute;
+	width: 35vw;
+    left: 53vw;
+	top: 7730px;
+	padding: 20px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 18px;
+   font-weight:  lighter;
+    line-height: 1.5em;
+    color: #ff8243;
+    background: white;
+}
+
 
 div:nth-child(10){
+
+	background-image: url(rear-window.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+div:nth-child(11){
 
 	background-image: url(marilyn-monroe.jpeg);
 	background-attachment: fixed;
@@ -252,15 +342,104 @@ div:nth-child(10){
 
 }
 
+.eleven-text {
+
+	position: absolute;
+	width: 29vw;
+    left: 15vw;
+	top: 9120px;
+	padding: 20px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 18px;
+   font-weight:  lighter;
+    line-height: 1.5em;
+    color: white;
+
+}
 
 
 
-div:nth-child(11){
+div:nth-child(12){
 
-	background: #ff8243
+	background-image: url(3d-movie.png);
+	background-attachment: fixed;
+	background-size: cover;
 
 
 }
+
+.twelve{
+	position: relative;
+	font-size: 50px;
+	font-weight: lighter;
+    top: -10px;
+    bottom: 100px;
+	margin: 100px ;
+	width: 60%;
+	color: #ff8243 ;
+	width: 600px;
+	height: 900px;
+
+
+}
+
+div:nth-child(13){
+
+	background-image: url(sound-of-music.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+div:nth-child(14){
+
+background-image: url(cinerama.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	
+
+}
+
+.fourteen {
+	font-size: 35px;
+	font-weight: lighter;
+    top: 100px;
+    bottom: 100px;
+	margin: 100px ;
+	width: 60%;
+	color: #ff8243 ;
+	width: 600px;
+	height: 1000px;
+
+}
+
+div:nth-child(15){
+
+	background-image: url();
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+
+div:nth-child(16){
+
+	background-image: url();
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+
+div:nth-child(17){
+
+	background-image: url();
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+
 
 
 
