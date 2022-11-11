@@ -589,7 +589,7 @@ div:nth-child(18){
 .strip1{
  	position: absolute;
  	width: 15px;
- 	height: 14000px;
+ 	height: 15000px;
  	background:  white;
  	top: -20px;
 	left:95px;
@@ -598,7 +598,7 @@ div:nth-child(18){
  .strip2{
  	position: absolute;
  	width: 15px;
- 	height: 14000px;
+ 	height: 15000px;
  	background:  white;
  	top: -20px;
 	right:95px;
